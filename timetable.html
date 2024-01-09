@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <div class="alert">
+        <spanclass="closebtn" onclick="this.parentElement.style.display='none';">&times</span>
+    </div>
+</head>
+<body>
+    <h1 style="background-color: chocolate; text-align: center;">Time Table</h1>
+    <button ondblclick="myfunction()">button click me</button>
+    <p id="demo" ondblclick="myfunction"></p>
+
+    <div class="alert">
+        <spanclass="closebtn" onclick="this.parentElement.style.display='none';">&times</span>
+    </div>
+    
+
+
+    <table border="1">
+        <tr>
+            <th>Day/Hr</th>
+            <th>10:30-11:20</th>
+            <th>11:20-12:10</th>
+            <th>12:10-01:00</th>
+            <th>01:00-02:15</th>
+            <th>02:15-03:05</th>
+            <th>03:05-03:55</th>
+            <th>03:55-04:45</th>
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td colspan="3" align="center"> DWDM LAB
+            </td>
+            <td rowspan="5">Lunch break</td>
+            <td align="center">WT</td>
+            <td align="center">PE</td>
+            <td align="center">OE</td>
+        </tr>
+        <tr>
+            <td>Tue</td>
+            <td colspan="3" align="center"> PDS LAB
+            </td>
+            <td align="center" >DWDM</td>
+            <td align="center">WT</td>
+            <td align="center">OE</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td colspan="3" align="center"> WT LAB
+            </td>
+            <td align="center">OB</td>
+            <td align="center">CNS</td>
+            <td align="center">OE</td>
+        </tr>
+        <tr>
+            <td align="center">Thur</td>
+            <td align="center">OB</td>
+            <td align="center">INT-1</td>
+            <td align="center">LIB</td>
+            <td align="center">DWDM</td>
+            <td align="center">DWDM</td>
+            <td align="center">CNS</td>
+        </tr>
+        <tr>
+            <td align="center">Fri</td>
+            <td align="center">OB</td>
+            <td align="center">PE</td>
+            <td align="center">INT-1</td>
+            <td align="center">WT</td>
+            <td align="center">CNS</td>
+            <td align="center">INT-1</td>
+        </tr>
+    </table>
+     <style>
+        td,th{
+          background-color: aliceblue;
+          padding: 15px;
+        }
+        table,td,th{
+          border: 2px solid;
+          border-collapse: collapse;
+        }
+      </style>
+   
+</body>
+</html>
