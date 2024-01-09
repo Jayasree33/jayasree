@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectiom_Myprojects">
+        <div class="myproject_container">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="main_img">
+
+                </div>
+                <div class="text-align">
+                    <h1 class="myproject_heading">My projects</h1>
+                    <p class="discription">Thre are a few of my static websites projects that i have developed using html,css,and bootstarp</p>
+                </div>
+                <div class="d-flex-flex-row justify-contemt-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="img">
+                </div>
+                <div class="d-flex flex-row justify-contemt-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section_Technologies">
+        <div class="advanced_technologies_bg_container d-flex flex-column justify-content-end">
+            <div class="advanced_technologies_card_container">
+                <div>
+                    <h1 class="advnaced_technologies_card_heading">Advanced Technologies</h1>
+                    <p class="advanced_technologies_description">
+                        Machonery and equipment developed from the application of scientific technollogies
+                    </p>
+                </div>
+                <div class="advanced_technologies_btn_container">
+                    <button class="btn_learn_more">Learn more</button>
+                    <button class="btn btn_Primary btn_save_draft" onclick="display('section_Myprojects')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="section_diwali">
+            <div class="diwali_top_section">
+                <h1 class="diwali_top_section_heading">
+                    Celebrate diwali with your friends
+                </h1>
+            </div>
+            <div class="diwali_bottom_section">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="diwali_card_item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png">
+                        <h1 class="diwali_card_name">Diwali Air Ballon</h1>
+                        <p class="diwali_card_price">rs 369</p>
+                    </div>
+                    <div class="diwali_card_item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png">
+                        <h1 class="diwali_card_name">Diwali-Lamp</h1>
+                        <p class="diwali_card_price">rs 58</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-contemt-center">
+                    <div class="diwali_card_item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png">
+                        <h1 class="diwali_card_name">Sparklers</h1>
+                        <p class="diwali_card_price">RS 150</p>
+                    </div>
+                    <div class="diwali_card_item">
+                        <img src="
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png">
+                        <h1 class="diwali_card_name">Fire crackers</h1>
+                        <p class="diwali_card_price">Rs 560</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary">View More</button>
+                <button class="btn btn-primary btn_save_draft" onclick="dispaly('section_Myprojects')">Back</button>
+            </div>
+        </div>
+        <div id="section_Meals">
+            <div class="order_page d-flex flext-column justify-content-end">
+                <div class="card_page">
+                    <h1 class="main_heading">Happy Meals</h1>
+                    <div class="font_family">
+                        <p class="para">
+                            Discover the best foods over the 10000 restaurants
+                        </p>
+                        <button class="button">Book Now</button>
+                        <button class="btn btn-primary btn_save_draft" onclick="display('section_Myprojects')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectin_News">
+            <div class="news_page_bg_container d-flex flex-column justify-contemt-end">
+                <div class="news_of_the_day_container">
+                    <p class="news_of_the_day_card_heading_container">NEWS OF THE DAY</p>
+                    <h1 class="news_of_the_day_card_heading">iB Cricket announcement worlds first virtual</h1>
+                    <p class="news_of_the_day_card_discription">iB cricket and viu together have annouonced the worlds first virtual reality crickrt league</p>
+                    <button class="button">Read more</button>
+                    <button class="btn btn-primary btn_save_draft" onclick="display('section_Myprojects')">Back</button>
+                </div>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
